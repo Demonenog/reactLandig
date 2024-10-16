@@ -1,0 +1,18 @@
+.footer {
+	background-color: #1e1e1e;
+	padding: 30px 0;
+	color: #5d5d5d;
+}
+
+.footer-inner {
+	font-size: 14px;
+	text-align: center;
+}
+
+.footer-inner b {
+	color: #0097a8;
+}
+
+.footer-inner::first-letter {
+	color: #9bd14a;
+}

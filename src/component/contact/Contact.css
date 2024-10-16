@@ -1,0 +1,40 @@
+.contacts {
+	padding: 80px 0;
+	background-color: #252525;
+	border-top-left-radius: 100px;
+	color: white;
+}
+
+.contact-title {
+	text-align: center;
+	font-size: 52px;
+	font-weight: 700;
+	margin-bottom: 65px;
+}
+
+.messengers {
+	display: flex;
+	column-gap: 30px;
+	flex-wrap: wrap;
+	row-gap: 30px;
+}
+
+.messenger {
+	/* height: 140px;
+	width: 370px; */
+	border: 1px solid #363636;
+	border-radius: 20px;
+	padding: 46px 20px;
+	color: white;
+	display: flex;
+	column-gap: 15px;
+	align-items: center;
+	font-size: 20px;
+	flex-grow: 1;
+	text-decoration: none;
+	transition: background-color 0.2s ease-in;
+}
+
+.messenger:hover {
+	background-color: #363636;
+}

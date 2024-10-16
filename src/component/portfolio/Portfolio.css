@@ -1,0 +1,44 @@
+.portfolio {
+	padding: 80px 0;
+}
+
+.portfolio-title {
+	margin-bottom: 65px;
+	font-size: 52px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.projects {
+	display: flex;
+	flex-direction: column;
+	row-gap: 70px;
+	align-items: center;
+}
+
+.project {
+	text-align: center;
+}
+
+.project-img {
+	border-radius: 30px;
+	margin: 30px;
+	transition: opacity 0.2s ease-in;
+}
+
+.project-img:hover {
+	opacity: 0.8;
+}
+
+.project-title {
+	font-size: 22px;
+}
+
+.project-title a {
+	color: black;
+	text-decoration: underline;
+}
+
+
+@media (max-width: 1080px) {
+}
